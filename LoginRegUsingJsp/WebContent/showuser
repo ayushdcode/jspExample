@@ -1,0 +1,11 @@
+<%	
+	try{
+
+	DBHelper db=new DBHelper();
+	Resultset rs=db.getAllUser();
+
+	}
+	catvh(Exception e)
+	{}
+
+%>
